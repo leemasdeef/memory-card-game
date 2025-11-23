@@ -2,9 +2,9 @@
 
 ![Preview](images/preview.png)
 
-<p align='center'> memory card game where you must reach a score of 18 to win.</p>
+<p align='center'> A Memory Card Game where you must reach a score of 18 to win.</p>
 
-<p align='center'>[Live Demo](memory-card-game-leemas.netlify.app)</p>
+<p align='center'>[Live Demo](https://memory-card-game-leemas.netlify.app)</p>
 
 <h2>Built with</h2>
 
