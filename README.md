@@ -22,6 +22,8 @@
 - Automatic shuffling of Gen 1 Pokemon upon win/loss.
 - Responsive design.
 - Score counter.
+</br>
+
 
 <h2>Development</h2>
 
