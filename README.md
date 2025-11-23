@@ -11,6 +11,7 @@
 - React
 - Javascript
 - Tailwind
+- Vite
 - Netlify
 - Poke API
 
