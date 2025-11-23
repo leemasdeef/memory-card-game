@@ -1,18 +1,51 @@
-# React + Vite
+<h1 align='center'>Pokemon Memory Card Game.</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Preview](images/preview.png)
 
-Currently, two official plugins are available:
+<p align='center'> memory card game where you must reach a score of 18 to win.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align='center'>[Live Demo](memory-card-game-leemas.netlify.app)</p>
 
-## React Compiler
+<h2>Built with</h2>
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React
+- Javascript
+- Tailwind
+- Netlify
+- Poke API
 
-Note: This will impact Vite dev & build performances.
+</br>
 
-## Expanding the ESLint configuration
+<h2>Features</h2>
+- In order to win, you must click on every single pokemon only once.
+- Automatic shuffling of Gen 1 Pokemon upon win/loss.
+- Responsive design.
+- Score counter.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h2>Development</h2>
+
+Here are the steps to start the project locally.
+
+1. Clone the repository.
+
+```sh
+HTTPS - $ git clone https://github.com/leemasdeef/memory-card-game.git
+or
+SSH - $ git clone git@github.com:leemasdeef/memory-card-game.git
+```
+
+2. Move to the cloned directory.
+
+```sh
+$ cd memory-card-game
+```
+
+3. Install the dependencies.
+
+```sh
+$ npm i
+or
+$ yarn
+```
+
+4. Start with pnpm dev OR npm run dev
