@@ -82,23 +82,22 @@ export default function Card() {
 
   return (
     <>
-      <div className="ml-auto mr-auto self-center text-center py-4 bg-amber-400 rounded-md w-50">
-        <p className="font-sans">Score: {score}</p>
-        <p>Max Score:</p>
-        <p>Target: 18</p>
+      <div className="flex gap-4 ml-auto mr-auto md:py-4 bg-blue-400 rounded-xl shadow-black shadow-sm w-50">
+        <p className="p-3">Score: {score}</p>
+        <p className="p-3">Target: 18</p>
       </div>
 
       <div className="flex justify-center">
-        <div className="w-full grid grid-cols-6 gap-4 bg-gradient-to-bl from-red-600 to-blue-500 rounded-md opacity-95 max-w-7xl p-8">
+        <div className="w-full grid grid-cols-3 md:grid-cols-6 md:gap-4 bg-gradient-to-bl from-red-600 to-blue-500 rounded-md opacity-95 max-w-7xl p-2 md:p-8">
           {pokemon.map((p) => (
             <div
               key={p.id}
               onClick={() => handleCardClick(p.id)}
-              className="relative cursor-pointer"
-              style={{ perspective: "1000px", height: "200px" }}
+              className="relative cursor-pointer h-30 md:h-48"
+              style={{ perspective: "1000px" }}
             >
               <div
-                className="relative w-full h-full transition-transform duration-700"
+                className="relative w-full h-30  md:h-full transition-transform duration-700"
                 style={{
                   transformStyle: "preserve-3d",
                   transform: allFlipped ? "rotateY(180deg)" : "rotateY(0deg)",
@@ -115,9 +114,11 @@ export default function Card() {
                   <img
                     src={p.sprites.front_default}
                     alt={p.name}
-                    className="w-full"
+                    className="size-full md:w-full"
                   />
-                  <p className="text-center capitalize mt-2">{p.name}</p>
+                  <p className="text-center text-xs md:text-base capitalize mt-2">
+                    {p.name}
+                  </p>
                 </div>
 
                 {/* Back of card */}
