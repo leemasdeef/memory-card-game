@@ -18,10 +18,12 @@
 </br>
 
 <h2>Features</h2>
+
 - In order to win, you must click on every single pokemon only once.
 - Automatic shuffling of Gen 1 Pokemon upon win/loss.
 - Responsive design.
 - Score counter.
+  
 </br>
 
 
